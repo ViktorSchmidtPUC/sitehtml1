@@ -1,0 +1,122 @@
+body {
+    background-color: #3a3a3a; 
+    color: #fff;
+    font-family: Georgia;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2d2d2d; 
+    font-size: 24px;
+    padding: 20px;
+}
+
+.titulo {
+    text-align: center;
+    color: #fff;
+    font-family: Georgia;
+}
+
+.banner {
+    height: 350px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+.sumario {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #1a1a1a;
+}
+
+.sumario li {
+    margin: 0;
+}
+
+.sumario a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 16px;
+}
+
+.sumario a:hover {
+    color: #a66d6d;
+    font-size: 22px;   
+}
+
+.artigo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.elemento {
+    text-align: center;
+    padding: 10px;
+    background-color: #444;
+    border-radius: 8px;
+    width: 300px;
+}
+
+.elemento img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.elemento img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.elemento h3 {
+    margin: 10px 0;
+    color: #fff;
+    font-size: 18px;
+}
+
+.elemento ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-size: 16px;
+}
+
+.elemento li {
+    padding: 5px 0;
+}
+
+footer {
+    background-color: #2d2d2d;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+}
+
+footer a {
+    color: #a66d6d;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
